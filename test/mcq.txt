@@ -1,0 +1,30 @@
+Q1. Yeh code kya print karega? vehicle_count = 10 if vehicle_count > 5: print('Heavy') else: print('Light')
+ans B) Heavy
+
+
+Q2. lane_counts = {'North': 12, 'South': 5} print(lane_counts['South']) — Output kya hoga?
+ans C) 5
+
+Q3. for loop se 4 lanes print karna hai. Sahi code kaun sa hai?
+ans  A) for lane in lanes: print(lane)
+
+Q4. defaultdict(int) ka kya fayda hai?
+D) Dictionary ko list mein convert karta hai
+
+Q5. Yeh function ka output kya hoga? def green_time(count): return 10 + count * 2 print(green_time(5))
+B) 20
+
+Q6. match-case kab use karna chahiye?
+B) Jab exact fixed values check karni hon jaise 'RED', 'GREEN'
+
+Q7. lanes = ['North', 'South', 'East', 'West'] print(len(lanes)) — kya print hoga?
+B) 4
+
+Q8. while loop aur for loop mein kya fark hai?
+B) while — condition pe depend, for — fixed iterations
+
+Q9. Yeh code mein kya galat hai? lane_name = 'North' if lane_name = 'North': print('Found!')
+C) = instead of == use kiya hai condition mein
+
+Q10. vehicle_counts = {'North':8, 'East':20, 'South':3, 'West':11} busiest = max(vehicle_counts, key=vehicle_counts.get) print(busiest) — Output?
+D) 20
